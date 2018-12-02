@@ -1,0 +1,125 @@
+.anchor:before {
+  display: block;
+  content: " ";
+  margin-top: -70px;
+  height: 70px;
+  visibility: hidden;
+}
+
+body {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #333;
+  padding-top: 70px;
+}
+
+body *::selection {
+  background: #e67e22;
+  color: #fff;
+}
+
+.nocaps {
+  font-family: "Inconsolata" monospace;
+}
+
+.top-strip {
+  background-color: #000;
+  height: 0.25em;
+  width: 100%;
+}
+
+h1,h2,h3 {
+  color: #1a1a1a;
+  font-weight: 300;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.page-header {
+  margin-top: 20px;
+  /*border-color: #3498db;*/
+}
+
+p.authors {
+  margin-bottom: 5px;
+  color: #808080;
+  font-size: 20px;
+}
+
+p.authors a {
+  border-color: #dedede;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  color: inherit;
+}
+
+.navbar a {
+  border-bottom: 0;
+}
+
+p.lead.authors a {
+  border-bottom: none;
+}
+
+a:hover, a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+.thumb {
+  margin: 20px 0;
+  border: 1px solid #808080;
+}
+
+pre {
+  color: #333;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.people-pic {
+  max-width: 130px;
+  max-height: 130px;
+}
+
+.people-name {
+  margin: 5px 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Inconsolata";
+}
+
+.people-name h6 {
+  margin: 2px 0;
+  font-size: 12px;
+  font-family: "Open Sans";
+}
