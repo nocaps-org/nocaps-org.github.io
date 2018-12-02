@@ -2,7 +2,7 @@ title: nocaps
 email: kdexd@gatech.edu
 description: Towards image captioning in the wild.
   ---
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/nocaps.org" # the subpath of your site, e.g. /blog
 # url: "https://nocaps.org" # the base hostname & protocol for your site
 
 # Build settings
