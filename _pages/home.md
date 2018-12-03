@@ -7,17 +7,17 @@ description: Towards novel object captioning
 
 <div class="row" style="margin-top:30px;">
   <div class="col-xs-12 col-sm-6">
-    <h3>What is nocaps?</h3>
+    <h3>What is <span style="font-family: Open Sans;">nocaps</span>?</h3>
     <p style="margin-top: 12px;">
       Image captioning models have achieved impressive results on datasets containing limited visual concepts and large amounts of paired image-caption training data. However, if these models are to ever function in the wild, a much larger variety of visual concepts must be learned, ideally from less supervision.
-      To encourage the development of image captioning models that can learn visual concepts from alternative data modalities, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed <span style="font-weight: 400">nocaps</span>, for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the Open Images validation and test sets. The associated training data consists of COCO image-caption pairs, plus Open Images image-level labels and object bounding boxes. Since Open Images contains many more classes than COCO, more than 500 object classes seen in test images have no training captions (hence, <span><i>nocaps</i></span>).
+      To encourage the development of image captioning models that can learn visual concepts from alternative data modalities, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed <span style="font-family: Open Sans;">nocaps</span>, for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the Open Images validation and test sets. The associated training data consists of COCO image-caption pairs, plus Open Images image-level labels and object bounding boxes. Since Open Images contains many more classes than COCO, more than 500 object classes seen in test images have no training captions (hence, <span style="font-family: Open Sans;">nocaps</span>).
         We evaluate several existing approaches to novel object captioning on our challenging benchmark. In quantitative evaluations these approaches show modest improvements over a strong baseline trained only on image-caption data. However, even when using ground-truth object detections, the results are significantly weaker than our human baseline -- indicating substantial room for improvement.
     </p>
   </div>
   <div class="col-xs-12 col-sm-6">
     <img src="/static/img/paper/teaser.jpg" style="margin-top: 37px;">
     <p style="font-size: 14px; text-align: center; margin-top: 10px;">
-      Figure: The nocaps benchmark  for  novel  object  captioning(at scale)
+      The <span style="font-family: Open Sans;">nocaps</span> benchmark  for  novel  object  captioning(at scale)
     </p>
   </div>
 </div>
@@ -55,7 +55,7 @@ description: Towards novel object captioning
   <div class="col-sm-6">
     <form action="https://tinyletter.com/nocaps" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nocaps', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
       <div class="form-group">
-        <label class="control-label" for="tlemail">Subscribe for nocaps release updates</label>
+        <label class="control-label" for="tlemail">Subscribe for <span style="font-family: Open Sans;">nocaps</span> release updates</label>
         <input class="form-control" type="text" name="email" id="tlemail" placeholder="Email address"/>
       </div>
       <input type="hidden" value="1" name="embed"/>

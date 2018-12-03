@@ -112,14 +112,9 @@ pre {
 }
 
 .people-name {
-  margin: 5px 0 10px;
+  margin-top: 5px;
   font-size: 16px;
-  font-weight: 700;
-  font-family: "Inconsolata";
-}
-
-.people-name h6 {
-  margin: 2px 0;
-  font-size: 12px;
-  font-family: "Open Sans";
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
 }
