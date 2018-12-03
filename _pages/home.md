@@ -8,35 +8,23 @@ paper: true
 ---
 
 <div class="row" style="margin-top:30px;">
-  <div class="col-xs-12 col-sm-7">
-    <h3>What is Visual Dialog?</h3>
-    <p>
-      Visual Dialog is a novel task that requires an AI agent to hold a meaningful dialog with humans in natural, conversational language about visual content.
-      Specifically, given an image, a dialog history, and a follow-up question about the image, the agent has to answer the question.
+  <div class="col-xs-12 col-sm-6">
+    <h3>What is nocaps?</h3>
+    <p style="margin-top: 10px;">
+      Image captioning models have achieved impressive results on datasets containing limited visual concepts and large amounts of paired image-caption training data. However, if these models are to ever function in the wild, a much larger variety of visual concepts must be learned, ideally from less supervision. To encourage the development of image captioning models that can learn visual concepts from alternative data modalities, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed `\nocaps', for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the \openimages validation and test sets. The associated training data consists of \coco image-caption pairs, plus \openimages image-level labels and object bounding boxes. Since \openimages contains many more classes than \coco, more than 500 object classes seen in test images have no training captions (hence, \nocaps). We evaluate several existing approaches to novel object captioning on our challenging benchmark. In quantitative evaluations these approaches show modest improvements over a strong baseline trained only on image-caption data. However, even when using ground-truth object detections, the results are significantly weaker than our human baseline -- indicating substantial room for improvement.
     </p>
   </div>
-  <ul style="margin:0 10px 10px;" class="col-xs-12 col-sm-4"><a href="#visdial">VisDial dataset</a>:
-    <li>
-      120k images from <a href="http://mscoco.org">COCO</a>
-    </li>
-    <li>
-      1 dialog / image
-    </li>
-    <li>
-      10 rounds of question-answers / dialog
-    </li>
-    <li>
-      Total 1.2M dialog question-answers
-    </li>
-  </ul>
-  <div class="col-xs-12">
+  <div class="col-xs-12 col-sm-6">
+    <img src="/static/img/paper/teaser.jpg" style="margin-top: 37px;">
+  </div>
+<!--   <div class="col-xs-12">
     <span style="color:#e74c3c;font-weight:400;">Sep 2018</span> — Winners of the Visual Dialog challenge 2018 announced! Complete leaderboard <a href="/challenge/2018#leaderboard">here</a>.<br>
     <span style="color:#e74c3c;font-weight:400;">Jun 2018</span> — <a href="/challenge/2018">Visual Dialog challenge 2018 announced</a> on the <a href="/data">VisDial v1.0 dataset</a>!<br>
     <span style="color:#e74c3c;font-weight:400;">Jun 2018</span> — <a href="//github.com/batra-mlp-lab/visdial-rl">PyTorch code for "Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning" is now available!</a><br>
     <span style="color:#e74c3c;font-weight:400;">Apr 2017</span> — <a href="//github.com/batra-mlp-lab/visdial">Torch code for training/evaluating Visual Dialog models</a>, <a href="https://github.com/batra-mlp-lab/visdial#download-extracted-features--pretrained-models">pretrained models</a> and <a href="http://demo.visualdialog.org">Visual Chatbot demo</a> are now available!<br>
     <span style="color:#e74c3c;font-weight:400;">Mar 2017</span> — <a href="/data">VisDial v0.9 dataset</a> and <a href="//github.com/batra-mlp-lab/visdial-amt-chat">code for real-time chat interface used to collect data on AMT</a> are now available!<br>
   </div>
-</div>
+</div> -->
 <hr>
 
 <div class="row">
