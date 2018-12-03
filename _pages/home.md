@@ -3,20 +3,26 @@ layout: project
 urltitle:  "nocaps"
 title: "nocaps"
 permalink: "/"
-bibtex: true
-paper: true
 ---
 
 <div class="row" style="margin-top:30px;">
   <div class="col-xs-12 col-sm-6">
     <h3>What is nocaps?</h3>
-    <p style="margin-top: 10px;">
-      Image captioning models have achieved impressive results on datasets containing limited visual concepts and large amounts of paired image-caption training data. However, if these models are to ever function in the wild, a much larger variety of visual concepts must be learned, ideally from less supervision. To encourage the development of image captioning models that can learn visual concepts from alternative data modalities, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed `\nocaps', for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the \openimages validation and test sets. The associated training data consists of \coco image-caption pairs, plus \openimages image-level labels and object bounding boxes. Since \openimages contains many more classes than \coco, more than 500 object classes seen in test images have no training captions (hence, \nocaps). We evaluate several existing approaches to novel object captioning on our challenging benchmark. In quantitative evaluations these approaches show modest improvements over a strong baseline trained only on image-caption data. However, even when using ground-truth object detections, the results are significantly weaker than our human baseline -- indicating substantial room for improvement.
+    <p style="margin-top: 12px;">
+      Image captioning models have achieved impressive results on datasets containing limited visual concepts and large amounts of paired image-caption training data. However, if these models are to ever function in the wild, a much larger variety of visual concepts must be learned, ideally from less supervision.</p>
+      <p>
+      To encourage the development of image captioning models that can learn visual concepts from alternative data modalities, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed <span style="font-weight: 400">nocaps</span>, for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the openimages validation and test sets. The associated training data consists of coco image-caption pairs, plus openimages image-level labels and object bounding boxes. Since openimages contains many more classes than coco, more than 500 object classes seen in test images have no training captions (hence, <span><i>nocaps</i></span>).</p>
+      <p>
+        We evaluate several existing approaches to novel object captioning on our challenging benchmark. In quantitative evaluations these approaches show modest improvements over a strong baseline trained only on image-caption data. However, even when using ground-truth object detections, the results are significantly weaker than our human baseline -- indicating substantial room for improvement.
     </p>
   </div>
   <div class="col-xs-12 col-sm-6">
     <img src="/static/img/paper/teaser.jpg" style="margin-top: 37px;">
+    <p style="font-size: 14px; text-align: center; margin-top: 10px;">
+      Figure: The nocaps benchmark  for  novel  object  captioning(at scale)
+    </p>
   </div>
+</div>
 <!--   <div class="col-xs-12">
     <span style="color:#e74c3c;font-weight:400;">Sep 2018</span> — Winners of the Visual Dialog challenge 2018 announced! Complete leaderboard <a href="/challenge/2018#leaderboard">here</a>.<br>
     <span style="color:#e74c3c;font-weight:400;">Jun 2018</span> — <a href="/challenge/2018">Visual Dialog challenge 2018 announced</a> on the <a href="/data">VisDial v1.0 dataset</a>!<br>
@@ -27,7 +33,8 @@ paper: true
 </div> -->
 <hr>
 
-<div class="row">
+
+<!-- <div class="row">
   <div class="col-xs-12">
       <h2>Visual Chatbot demo</h2>
   </div>
@@ -37,19 +44,20 @@ paper: true
       <iframe src="https://visualchatbot.cloudcv.org" width="400" height="640"></iframe>
     </p>
   </div>
-</div>
-<hr>
+</div> -->
 
 <div class="row">
-  <div class="col-sm-6">
-    <span style="font-weight:400;">Email</span> — contact@visualdialog.org
-    <br>
-    <br>
+  <div class="col-xs-12 col-sm-6">
+    <div style="height: 115px; padding-top: 45px;">
+      <span style="font-weight:400; padding-top: 58px;">Email</span> — contact@nocaps.org
+      <br>
+      <br>
+    </div>
   </div>
   <div class="col-sm-6">
     <form action="https://tinyletter.com/visualdialog" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/visualdialog', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
       <div class="form-group">
-        <label class="control-label" for="tlemail">Subscribe for Visual Dialog release updates</label>
+        <label class="control-label" for="tlemail">Subscribe for nocaps release updates</label>
         <input class="form-control" type="text" name="email" id="tlemail" placeholder="Email address"/>
       </div>
       <input type="hidden" value="1" name="embed"/>
@@ -59,13 +67,13 @@ paper: true
 </div>
 <hr>
 
-<a class="anchor" name="/bibtex"></a>
+<!-- <a class="anchor" name="/bibtex"></a>
 <div class="row">
     <div class="col-xs-12">
-        <h3>Visual Dialog</h3>
+        <h3>nocaps</h3>
     </div>
     <div class="col-xs-12" style="margin-top: 3px; color: #666;">
-        Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, Deshraj Yadav, José M. F. Moura, Devi Parikh and Dhruv Batra
+        Harsh Aggarwal, Karan Desai, Xinlei Chen, Rishabh Jain, Dhruv Batra, Devi Parikh, Stefan Lee, Peter Anderson
     </div>
     <div class="col-xs-12" style="margin-top: 3px; color: #666;">
       CVPR 2017 (Spotlight) [<a href="bib/visdial.bib.txt">Bibtex</a>] [<a href="//arxiv.org/abs/1611.08669">PDF</a>] [<a href="//github.com/batra-mlp-lab/visdial">Code</a>]
@@ -79,8 +87,8 @@ paper: true
 
 <a name="/data"></a>
 <hr>
-
-{% if page.acknowledgements %}
+ -->
+<!-- {% if page.acknowledgements %}
 <a class="anchor" name="/acknowledgements"></a>
 <div class="row">
   <div class="col-xs-12">
@@ -94,4 +102,4 @@ paper: true
     </p>
   </div>
 </div>
-{% endif %}
+{% endif %} -->
