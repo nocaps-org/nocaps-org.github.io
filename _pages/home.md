@@ -1,8 +1,8 @@
 ---
 layout: project
-urltitle:  "nocaps"
 title: "nocaps"
 permalink: "/"
+description: Towards novel object captioning
 ---
 
 <div class="row" style="margin-top:30px;">
