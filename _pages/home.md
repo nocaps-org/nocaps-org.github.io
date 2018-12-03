@@ -55,7 +55,7 @@ permalink: "/"
     </div>
   </div>
   <div class="col-sm-6">
-    <form action="https://tinyletter.com/visualdialog" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/visualdialog', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <form action="https://tinyletter.com/nocaps" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nocaps', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
       <div class="form-group">
         <label class="control-label" for="tlemail">Subscribe for nocaps release updates</label>
         <input class="form-control" type="text" name="email" id="tlemail" placeholder="Email address"/>
