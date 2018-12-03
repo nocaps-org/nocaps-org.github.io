@@ -1,4 +1,4 @@
-Jekyll source for [visualdialog.org](http://visualdialog.org)
+Jekyll source for [nocaps.org](http://nocaps.org)
 
 Dependencies
 ------------
