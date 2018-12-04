@@ -23,7 +23,6 @@ description: Towards novel object captioning
 </div>
 <hr>
 
-
 <div class="row">
   <div class="col-xs-12 col-sm-6">
     <div style="height: 115px; padding-top: 45px;">
@@ -44,6 +43,10 @@ description: Towards novel object captioning
   </div>
 </div>
 <hr>
+
+<div class="people-container">
+{% include people.html %}
+</div>
 
 <!-- {% if page.acknowledgements %}
 <a class="anchor" name="/acknowledgements"></a>
