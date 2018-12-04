@@ -1,17 +1,8 @@
-.anchor:before {
-  display: block;
-  content: " ";
-  margin-top: -70px;
-  height: 70px;
-  visibility: hidden;
-}
-
 body {
   font-size: 16px;
-  line-height: 23px;
+  line-height: 22px;
   font-weight: 300;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #333;
   padding-top: 70px;
 }
 
@@ -20,8 +11,18 @@ body *::selection {
   color: #fff;
 }
 
-.nocaps {
-  font-family: "Inconsolata" monospace;
+.anchor:before {
+  display: block;
+  content: " ";
+  margin-top: -70px;
+  height: 70px;
+  visibility: hidden;
+}
+
+.nocaps-word {
+  font-family: "Inconsolata";
+  font-weight: 700;
+  color: #222;
 }
 
 .top-strip {
@@ -100,21 +101,23 @@ a:hover, a:focus {
   border: 1px solid #808080;
 }
 
-pre {
-  color: #333;
-  font-size: 12px;
-  line-height: 17px;
+/************************************************
+  People section
+************************************************/
+.people-container {
+  padding-right: 0px;
 }
 
 .people-pic {
-  max-width: 130px;
-  max-height: 130px;
+  max-width: 135px;
+  max-height: 135px;
 }
 
 .people-name {
   margin-top: 5px;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Roboto";
-  text-align: center;
+  font-size: 17px;
+}
+
+.people-affiliation {
+  font-size: 13px;
 }
