@@ -17,7 +17,7 @@ description: Towards novel object captioning
   <div class="col-xs-12 col-sm-6">
     <img src="/static/img/paper/teaser.jpg" style="margin-top: 37px;">
     <p style="font-size: 14px; text-align: center; margin-top: 10px;">
-      The <span style="font-family: Inconsolata;">nocaps</span> benchmark  for  novel  object  captioning(at scale)
+      The <span style="font-family: Inconsolata;">nocaps</span> benchmark  for  novel  object  captioning (at scale)
     </p>
   </div>
 </div>
