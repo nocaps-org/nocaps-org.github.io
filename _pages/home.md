@@ -7,7 +7,7 @@ description: Towards novel object captioning
 
 <div class="row" style="margin-top:30px;">
   <div class="col-xs-12 col-sm-6">
-    <h3><span style="font-family: Inconsolata;">nocaps: </span> novel object captioning at scale</h3>
+    <h3 style="text-align: center;"><span style="font-family: Inconsolata;">nocaps: </span> novel object captioning at scale</h3>
     <p style="margin-top: 12px;">
       Image captioning models have achieved impressive results on datasets containing limited visual concepts and large amounts of paired image-caption training data. However, if these models are to ever function in the wild, a much larger variety of visual concepts must be learned, ideally from less supervision.
       To encourage the development of image captioning models that can learn visual concepts from alternative data modalities, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed <span style="font-family: Inconsolata;">nocaps</span>, for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the Open Images validation and test sets. The associated training data consists of COCO image-caption pairs, plus Open Images image-level labels and object bounding boxes. Since Open Images contains many more classes than COCO, more than 500 object classes seen in test images have no training captions (hence, <span style="font-family: Inconsolata;">nocaps</span>).
