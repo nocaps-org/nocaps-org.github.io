@@ -1,10 +1,17 @@
 title: nocaps
-email: rishabhjain@gatech.edu
-description: Towards image captioning in the wild
+subtitle: novel object captioning at scale
+url: "https://nocaps.org"
+description: Towards image captioning in the wild.
+
 ga_id: UA-45466017-8
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://nocaps.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 include: ['_pages']
+plugins_dir:
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sass_dir: _sass

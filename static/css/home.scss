@@ -1,0 +1,61 @@
+---
+---
+@import "style";
+@import "navbar";
+
+/************************************************
+ * Teasure figure and caption                   *
+ ************************************************/
+
+.nocaps-word {
+    font-weight: 700;
+}
+
+#teaser-figure {
+    display: block;
+    margin: 20px 0 0 0;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+#teaser-caption {
+    display: block;
+    font-size: $caption-fs;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+/************************************************
+ * People section                               *
+ ************************************************/
+
+.people-container {
+    padding-right: 0px;
+}
+
+.people-pic {
+    max-width: 135px;
+    max-height: 135px;
+}
+
+.people-name {
+    margin: 3px 0 3px 0;
+}
+
+.people-name a {
+    font-size: $people-fs;
+    font-weight: 700;
+}
+
+.people-affiliation {
+    font-size: $people-fs - 2px;
+    margin: 3px 0 3px 0;
+}
+
+.affiliation-logo {
+    float: right;
+    display: inline-block;
+    margin: 10px 5px 10px 5px;
+    max-height: 30px;
+}

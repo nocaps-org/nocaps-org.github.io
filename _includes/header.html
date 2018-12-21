@@ -1,19 +1,13 @@
-<div class="navbar navbar-default navbar-fixed-top">
+<nav id="navbar">
   <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand nocaps" href="/" style="font-family: Inconsolata;">nocaps</a>
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="site-title-container">
+          <a id="site-title" href="{{ site.baseurl }}">{{ site.title }}</a>
+          <span id="site-subtitle">{{ site.subtitle }}</span>
+        </div>
+      </div>
     </div>
-    <div class="navbar-collapse collapse" id="navbar-main">
-<!--       <ul class="nav navbar-nav">
-        <li>
-          <a href="/">Overview</a>
-        </li>
-      </ul> -->
-    </div>
+    <hr id="navbar-border">
   </div>
-</div>
+</nav>

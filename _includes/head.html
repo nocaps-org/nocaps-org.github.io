@@ -3,18 +3,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <meta name="keywords" content="nocaps, captioning, open images, deep learning, computer vision, neural networks, georgia tech, machine learning">
-  <link rel="shortcut icon" href="{{ "/static/img/paper/teaser.jpg" | prepend:site.baseurl }}">
+  <meta name="keywords" content="nocaps, caption, open images, deep learning, computer vision, neural networks, machine learning">
+  <link rel="shortcut icon" href="/static/img/paper/teaser.jpg">
 
-  <title>{{site.title}}</title>
-  <meta name="description" content="{{site.description}}">
+  <!-- fall back to site title if page has no title -->
+  <title>
+    {%if page.title %}
+       {{ page.title }}
+   {% else %}
+       {{ site.title }}
+   {% endif %}
+  </title>
+  <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
 
-  <!-- CSS  -->
-  <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-  <link rel="stylesheet" type="text/css" href="{{ "/static/css/main.css" | prepend:site.baseurl }}" media="screen,projection">
-  <!-- Inconsolata -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:100,300,700">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:100,300,700">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,700">
+  <!--Open Graph Related Stuff-->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:image" content="/static/img/paper/teaser.jpg"/>
+  <meta property="og:image:url" content="{{ site.url }}/static/img/paper/teaser.jpg"/>
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
+  <!--Twitter Card Stuff-->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:creator" content="@kdexd">
+  <meta name="twitter:image" content="/static/img/paper/teaser.jpg"/>
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}"/>
+  <meta name="twitter:domain" value="{{site.url}}">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="/static/css/bootstrap-grid.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="/static/css/home.css">
 </head>

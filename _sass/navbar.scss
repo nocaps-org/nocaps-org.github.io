@@ -1,0 +1,55 @@
+/*
+ * Navbar
+ */
+
+#navbar {
+    position: fixed;
+    padding: 15px 0 0 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $navbar-background-color;
+    z-index: 1030;
+}
+
+#navbar-border {
+    clear: both;
+    margin: 20px 0 0 0;
+}
+
+#site-title-container {
+    float: left;
+    vertical-align: bottom;
+}
+
+#site-title {
+    color: $title-color;
+    display: block;
+    font-size: 34px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#site-subtitle {
+    line-height: 24px;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: $title-color;    
+}
+
+@media (max-width: 650px) {
+    #navbar {
+        position: absolute;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    #navbar {
+        position: absolute;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+}
