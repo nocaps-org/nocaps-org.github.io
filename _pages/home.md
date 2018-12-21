@@ -37,12 +37,12 @@ permalink: "/"
   <div class="col-md-6 col-sm-6 col-xs-12">
     <h3>Subscribe</h3>
     <form action="https://tinyletter.com/nocaps" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/nocaps', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-        <label for="tlemail">Subscribe for <span class="nocaps-word">nocaps</span> release updates</label>
-        <div class="row">
-        <div class="col-md-8 col-sm-8 col-xs-8">
+      <label for="tlemail">Subscribe for <span class="nocaps-word">nocaps</span> release updates</label>
+      <div class="row">
+        <div class="col-md-8 col-sm-8 col-xs-8" style="margin: 10px 0 10px 0">
           <input type="text" name="email" id="tlemail" placeholder="Email address" style="width: 100%"/>
         </div>
-        <div class="col-md-4 col-sm-4 col-xs-4">
+        <div class="col-md-4 col-sm-4 col-xs-4" style="margin: 10px 0 10px 0">
           <button type="submit">Subscribe!</button>
         </div>
       </div>

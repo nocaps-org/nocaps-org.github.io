@@ -68,7 +68,7 @@ hr {
 
 @media (max-width: 800px) {
     .container {
-        max-width: $med-width;
+        max-width: 100%;
         transition: 0.3s ease all;
     }
 }
