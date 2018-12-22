@@ -37,14 +37,16 @@ permalink: "/"
   </div>
   <!-- arxiv and website link -->
   <div class="paper-links col-md-12 col-sm-12 col-xs-12">
-    <a class="paper-link" href="//arxiv.org/abs/1812.08658" target="_blank">
-      <span class="button-div">arxiv/1812.08658</span>
+    
+      <a class="paper-link button-div" href="//arxiv.org/abs/1812.08658" target="_blank">
+        arxiv/1812.08658
+      </a>
+    
+    <a class="paper-link button-div" href="/static/bibliography/nocaps_bibtex.txt" target="_blank">
+      bibtex
     </a>
-    <a class="paper-link" href="/static/bibliography/nocaps_bibtex.txt" target="_blank">
-      <span class="button-div">bibtex</span>
-    </a>
-    <a class="paper-link" href="/static/bibliography/nocaps_natbib.txt" target="_blank">
-      <span class="button-div">natbib</span>
+    <a class="paper-link button-div" href="/static/bibliography/nocaps_natbib.txt" target="_blank">
+      natbib
     </a>
   </div>
   <div class="paper-banner col-md-12 col-sm-12 col-xs-12">
