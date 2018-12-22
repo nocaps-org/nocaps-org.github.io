@@ -24,7 +24,7 @@ permalink: "/"
 
 <hr>
 
-<h2>People</h2>
+<h2 class="anchor" id="people">People</h2>
 
 <div class="people-container">
 {% include people.html %}

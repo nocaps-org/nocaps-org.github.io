@@ -40,13 +40,17 @@ p {
 
 a {
     color: $text-color;
-    text-decoration-style: dashed;
+    text-decoration: underline dashed;
+    text-decoration-skip-ink: none;
+    text-underline-position: under;
 }
 
 a:hover {
     color: $anchor-color;
-    text-decoration-style: underline;
+    text-decoration: underline solid;
+    text-underline-position: under;
 }
+
 hr {
     margin: 10px 0 10px 0;
     border: 0;

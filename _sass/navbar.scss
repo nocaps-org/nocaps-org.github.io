@@ -1,6 +1,6 @@
-/*
- * Navbar
- */
+/************************************************
+ |  Navbar                                      |
+ ************************************************/
 
 #navbar {
     position: fixed;
@@ -12,22 +12,17 @@
     z-index: 1030;
 }
 
-#navbar-border {
-    clear: both;
-    margin: 20px 0 0 0;
-}
-
 #site-title-container {
+    display: inline-block;
     float: left;
     vertical-align: bottom;
 }
 
 #site-title {
     color: $title-color;
-    display: block;
     font-size: 34px;
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 #site-subtitle {
@@ -36,6 +31,35 @@
     font-size: 20px;
     font-weight: 700;
     color: $title-color;    
+}
+
+#navbar-ul-container {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+#navbar-ul {
+    list-style-type: none;
+}
+
+.nav-listitem {
+    margin: 0 15px 0 15px;
+    font-size: 22px;
+    display: inline-block;
+    float: left;
+    
+    a {
+        color: $anchor-color;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+#navbar-border {
+    clear: both;
+    margin: 10px 0 0 0;
 }
 
 @media (max-width: 650px) {
@@ -51,5 +75,19 @@
         position: absolute;
         text-align: center;
         padding: 10px 0px 0px 0px;
+    }
+
+    #site-title-container {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    #navbar-ul-container {
+        display: block;
+        float: none;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        width: 100%;
     }
 }
