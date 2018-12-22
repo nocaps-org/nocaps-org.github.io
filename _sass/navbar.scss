@@ -4,7 +4,7 @@
 
 #navbar {
     position: fixed;
-    padding: 15px 0 0 0;
+    padding: 25px 0 0 0;
     top: 0;
     left: 0;
     right: 0;
@@ -23,14 +23,6 @@
     font-size: 34px;
     font-weight: 700;
     text-decoration: none;    
-}
-
-#site-subtitle {
-    line-height: 24px;
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    color: $title-color;    
 }
 
 #navbar-ul-container {
@@ -59,7 +51,7 @@
 
 #navbar-border {
     clear: both;
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 @media (max-width: 650px) {

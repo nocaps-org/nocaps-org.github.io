@@ -67,6 +67,22 @@ hr {
   visibility: hidden;
 }
 
+.button-div {
+    border: 1px dashed black;
+    border-radius: 3px;
+    color: $text-color;
+    display: inline-block;
+    padding: 5px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.button-div:hover {
+    border: 1px solid $anchor-color;
+    color: $anchor-color;
+}
 
 /* Mobile */
 

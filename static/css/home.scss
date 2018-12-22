@@ -26,6 +26,50 @@
     margin: 10px 0 20px 0;
 }
 
+
+/************************************************
+ |  Paper                                       |
+ ************************************************/
+
+.paper-container {
+    margin: 0;
+    padding: 0 0 20px 0;
+
+    div {
+        padding: 0;
+    }
+}
+
+.paper-title {
+    font-size: $paper-title-fs;
+    font-weight: 700;
+    margin: 4px 0 4px 0;
+}
+
+.paper-authors {
+    line-height: $line-height;
+    font-size: $paper-authors-fs;
+}
+
+.paper-banner {
+    border: 1px solid silver;
+    margin: 10px 0 0 0;
+    width: 100%;
+
+    img {
+        width: 100%
+    }
+}
+
+.paper-links {
+    margin: 5px 0 0 0;
+
+    .paper-link {
+        margin: 0 10px 0 0;
+    }
+}
+
+
 /************************************************
  * People section                               *
  ************************************************/

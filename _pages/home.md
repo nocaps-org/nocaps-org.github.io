@@ -24,6 +24,36 @@ permalink: "/"
 
 <hr>
 
+<h2 class="anchor" id="paper">Paper</h2>
+
+<div class="paper-container row">
+  <!-- nocaps: novel object captioning at scale -->
+  <div class="paper-title col-md-12 col-sm-12 col-xs-12">
+    nocaps: novel object captioning at scale
+  </div>
+  <!-- negative margin to account for superscripted asterisk -->
+  <div class="paper-authors col-md-12 col-sm-12 col-xs-12" style="margin-top: -4px;">
+    Harsh Agrawal<sup>*</sup>, Karan Desai<sup>*</sup>, Xinlei Chen, Rishabh Jain, Dhruv Batra, Devi Parikh, Stefan Lee, Peter Anderson
+  </div>
+  <!-- arxiv and website link -->
+  <div class="paper-links col-md-12 col-sm-12 col-xs-12">
+    <a class="paper-link" href="//arxiv.org/abs/1812.08658" target="_blank">
+      <span class="button-div">arxiv/1812.08658</span>
+    </a>
+    <a class="paper-link" href="/static/bibliography/nocaps_bibtex.txt" target="_blank">
+      <span class="button-div">bibtex</span>
+    </a>
+    <a class="paper-link" href="/static/bibliography/nocaps_natbib.txt" target="_blank">
+      <span class="button-div">natbib</span>
+    </a>
+  </div>
+  <div class="paper-banner col-md-12 col-sm-12 col-xs-12">
+    <img src="/static/img/paper/nocaps_banner.jpg" alt="nocaps paper" title="nocaps paper"/>
+  </div>
+</div>
+
+<hr>
+
 <h2 class="anchor" id="people">People</h2>
 
 <div class="people-container">

@@ -1,0 +1,6 @@
+@Article{nocaps,
+    Author  = {Harsh Agrawal and Karan Desai and Xinlei Chen and Rishabh Jain and Dhruv Batra and Devi Parikh and Stefan Lee and Peter Anderson},
+    Title   = {{nocaps}: {n}ovel {o}bject {c}aptioning {a}t {s}cale},
+    Journal = {arXiv preprint arXiv:1812.08658},
+    Year    = {2018},
+}
