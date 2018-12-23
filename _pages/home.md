@@ -50,7 +50,7 @@ permalink: "/"
     </a>
   </div>
   <div class="paper-banner col-md-12 col-sm-12 col-xs-12">
-    <img src="/static/img/paper/nocaps_banner.jpg" alt="nocaps paper" title="nocaps paper"/>
+    <a href="//arxiv.org/abs/1812.08658"> <img src="/static/img/paper/nocaps_banner.jpg" alt="nocaps paper" title="nocaps paper" /> </a>
   </div>
 </div>
 
