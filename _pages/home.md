@@ -15,8 +15,8 @@ permalink: "/"
     <!-- Abstract -->
     <div class="col-md-6 col-sm-6 col-xs-6 col-12">
       <p>
-        Image captioning models have achieved impressive results on datasets containing limited visual concepts and large amounts of paired image-caption training data. However, if these models are to ever function in the wild, a much larger variety of visual concepts must be learned, ideally from less supervision.
-        To encourage the development of image captioning models that can learn visual concepts from alternative data modalities, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed <span class="nocaps-word">nocaps</span>, for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the Open Images validation and test sets. The associated training data consists of COCO image-caption pairs, plus Open Images image-level labels and object bounding boxes. Since Open Images contains many more classes than COCO, more than 500 object classes seen in test images have no training captions (hence, <span class="nocaps-word">nocaps</span>). We evaluate several existing approaches to novel object captioning on our benchmark. In quantitative evaluations these approaches show modest improvements over a strong baseline trained only on image-caption data. However, even when using ground-truth object detections, the results are significantly weaker than our human baseline — indicating substantial room for improvement.
+      Image captioning models have achieved impressive results on datasets containing limited visual concepts and large amounts of paired image-caption training data. However, if these models are to ever function in the wild, a much larger variety of visual concepts must be learned, ideally from less supervision.
+      To encourage the development of image captioning models that can learn visual concepts from alternative data sources, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed <span class="nocaps-word">nocaps</span>, for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the Open Images validation and test sets. The associated training data consists of COCO image-caption pairs, plus Open Images imagelevel labels and object bounding boxes. Since Open Images contains many more classes than COCO, nearly 400 object classes seen in test images have no or very few associated training captions (hence, <span class="nocaps-word">nocaps</span>). We extend existing novel object captioning models to establish strong baselines for this benchmark and provide analysis to guide future work on this task.
       </p>
     </div>
   </div>
@@ -33,10 +33,10 @@ permalink: "/"
   </div>
   <!-- negative margin to account for superscripted asterisk -->
   <div class="paper-authors col-md-12 col-sm-12 col-xs-12" style="margin-top: -4px;">
-    Harsh Agrawal<sup>*</sup>, Karan Desai<sup>*</sup>, Xinlei Chen, Rishabh Jain, Dhruv Batra, Devi Parikh, Stefan Lee, Peter Anderson
+    Harsh Agrawal<sup>*</sup>, Karan Desai<sup>*</sup>, Yufei Wang, Xinlei Chen, Rishabh Jain, Mark Johnson, Dhruv Batra, Devi Parikh, Stefan Lee, Peter Anderson
   </div>
   <!-- arxiv and website link -->
-  <div class="paper-links col-md-12 col-sm-12 col-xs-12">
+  <!-- <div class="paper-links col-md-12 col-sm-12 col-xs-12">
     
       <a class="paper-link button-div" href="//arxiv.org/abs/1812.08658" target="_blank">
         arxiv/1812.08658
@@ -48,9 +48,9 @@ permalink: "/"
     <a class="paper-link button-div" href="/static/bibliography/nocaps_natbib.txt" target="_blank">
       natbib
     </a>
-  </div>
+  </div> -->
   <div class="paper-banner col-md-12 col-sm-12 col-xs-12">
-    <a href="//arxiv.org/abs/1812.08658"> <img src="/static/img/paper/nocaps_banner.jpg" alt="nocaps paper" title="nocaps paper" /> </a>
+    <a href="//nocaps.org/paper.pdf" target="_blank"> <img src="/static/img/paper/nocaps_banner.jpg" alt="nocaps paper" title="nocaps paper"/> </a>
   </div>
 </div>
 
