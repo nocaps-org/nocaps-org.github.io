@@ -55,6 +55,21 @@ permalink: "/"
 </div>
 
 <hr>
+<h2 class="anchor" id="dataset">Dataset and Evaluation Server</h2>
+<div class="dataset-container row">
+  
+  <div class="col-md-12 col-sm-12 col-xs-12">
+    <p>nocaps benchmark consists of a validation and test set comprised of 4,500 and 10,600 images,
+    respectively, sourced from the Open Images object detection dataset and annotated with 10 human-generated
+    captions per image. </p>
+    <p> To facilitate evaluation and avoid exposing the novel object captions, we have also setup an evaluation server. </p>
+  </div>
+</div>
+<div class="dataset-container row col">
+  <button><a href="https://s3.amazonaws.com/nocaps/nocaps.zip">Download Dataset</a></button>
+  <button><a href="https://evalai.cloudcv.org/web/challenges/challenge-page/226/overview">Evaluation Server</a></button>
+</div>
+<hr>
 
 <h2 class="anchor" id="people">People</h2>
 
