@@ -67,7 +67,7 @@ permalink: "/"
 </div>
 <div class="dataset-container row col">
   <button><a href="https://s3.amazonaws.com/nocaps/nocaps.tar.gz">Download Dataset</a></button>
-  <button><a href="https://evalai.cloudcv.org/web/challenges/challenge-page/226/overview">Evaluation Server</a></button>
+  <button><a href="https://evalai.cloudcv.org/web/challenges/challenge-page/355/overview">Evaluation Server</a></button>
 </div>
 <hr>
 
