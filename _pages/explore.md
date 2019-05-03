@@ -1,0 +1,4 @@
+---
+layout: explore
+permalink: "/explore"
+---
