@@ -3,6 +3,8 @@ layout: default
 permalink: "/"
 ---
 
+<link rel="stylesheet" type="text/css" href="/static/css/home.css">
+
 <div class="container">
   <div class="row">
     <!-- Teaser figure -->
@@ -16,7 +18,7 @@ permalink: "/"
     <div class="col-md-6 col-sm-6 col-xs-6 col-12">
       <p>
       Image captioning models have achieved impressive results on datasets containing limited visual concepts and large amounts of paired image-caption training data. However, if these models are to ever function in the wild, a much larger variety of visual concepts must be learned, ideally from less supervision.
-      To encourage the development of image captioning models that can learn visual concepts from alternative data sources, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed <span class="nocaps-word">nocaps</span>, for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the Open Images validation and test sets. The associated training data consists of COCO image-caption pairs, plus Open Images imagelevel labels and object bounding boxes. Since Open Images contains many more classes than COCO, nearly 400 object classes seen in test images have no or very few associated training captions (hence, <span class="nocaps-word">nocaps</span>). We extend existing novel object captioning models to establish strong baselines for this benchmark and provide analysis to guide future work on this task.
+      To encourage the development of image captioning models that can learn visual concepts from alternative data sources, such as object detection datasets, we present the first large-scale benchmark for this task. Dubbed <span class="nocaps-word">nocaps</span>, for novel object captioning at scale, our benchmark consists of 166,100 human-generated captions describing 15,100 images from the Open Images validation and test sets. The associated training data consists of COCO image-caption pairs, plus Open Images image-level labels and object bounding boxes. Since Open Images contains many more classes than COCO, nearly 400 object classes seen in test images have no or very few associated training captions (hence, <span class="nocaps-word">nocaps</span>). We extend existing novel object captioning models to establish strong baselines for this benchmark and provide analysis to guide future work on this task.
       </p>
     </div>
   </div>
@@ -53,23 +55,6 @@ permalink: "/"
     <a href="//nocaps.org/paper.pdf" target="_blank"> <img src="/static/img/paper/nocaps_banner.jpg" alt="nocaps paper" title="nocaps paper"/> </a>
   </div>
 </div>
-
-<hr>
-<h2 class="anchor" id="dataset">Dataset and Evaluation Server</h2>
-<div class="dataset-container row">
-  
-  <div class="col-md-12 col-sm-12 col-xs-12">
-    <p>nocaps benchmark consists of a validation and test set comprised of 4,500 and 10,600 images,
-    respectively, sourced from the Open Images object detection dataset and annotated with 10 human-generated
-    captions per image. </p>
-    <p> To facilitate evaluation and avoid exposing the novel object captions, we have also setup an evaluation server. </p>
-  </div>
-</div>
-<div class="dataset-container row col">
-  <button><a href="https://s3.amazonaws.com/nocaps/nocaps.tar.gz">Download Dataset</a></button>
-  <button><a href="https://evalai.cloudcv.org/web/challenges/challenge-page/355/overview">Evaluation Server</a></button>
-</div>
-<hr>
 
 <h2 class="anchor" id="people">People</h2>
 

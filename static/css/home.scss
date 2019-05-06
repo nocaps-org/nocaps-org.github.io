@@ -1,7 +1,6 @@
 ---
 ---
 @import "style";
-@import "navbar";
 
 /************************************************
  * Teasure figure and caption                   *
@@ -76,6 +75,11 @@
 
 .people-container {
     padding-right: 0px;
+}
+
+/** Remove border from peoples' pictures. */
+.people-pic-hyperlink, .people-pic-hyperlink:hover {
+    border: 0px;
 }
 
 .people-pic {

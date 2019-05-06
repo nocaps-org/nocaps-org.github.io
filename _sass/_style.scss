@@ -32,6 +32,11 @@ h3 {
     margin: 8px 0 8px 0;
 }
 
+h4 {
+    font-size: 22px;
+    margin: 4px 0 4px 0;
+}
+
 p {
     line-height: 22px;
     font-size: 16px;
@@ -41,14 +46,13 @@ p {
 a {
     color: $text-color;
     text-decoration: none;
-    text-decoration-skip-ink: none;
+    border-bottom: 1px dashed $text-color;
     text-underline-position: under;
 }
 
 a:hover {
     color: $anchor-color;
-    text-decoration: none;
-    text-underline-position: under;
+    border-bottom: 1px solid green;
 }
 
 hr {
@@ -75,7 +79,7 @@ hr {
     padding: 5px;
 
     a {
-        text-decoration: none;
+        border: 0px;
     }
 }
 

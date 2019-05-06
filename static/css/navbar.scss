@@ -1,3 +1,7 @@
+---
+---
+@import "style";
+
 /************************************************
  |  Navbar                                      |
  ************************************************/
@@ -45,7 +49,7 @@
     a {
         color: $anchor-color;
         font-weight: bold;
-        text-decoration: none;
+        border: 0px;
     }
 }
 
