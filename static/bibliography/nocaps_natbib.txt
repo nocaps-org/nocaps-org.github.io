@@ -1,4 +1,4 @@
-\bibitem[{Agrawal and Desai et~al.(2018)Agrawal, Desai, Chen, Jain, Batra, Parikh, Lee, Anderson}]{nocaps}
-Harsh Agrawal, Karan Desai, Xinlei Chen, Rishabh Jain, Dhruv Batra, Devi Parikh, Stefan Lee, Peter Anderson. 2018.
+\bibitem[{Agrawal and Desai et~al.(2018)Agrawal, Desai, Wang, Chen, Jain, Johnson, Batra, Parikh, Lee, Anderson}]{nocaps}
+Harsh Agrawal*, Karan Desai*, Yufei Wang, Xinlei Chen, Rishabh Jain, Mark Johnson, Dhruv Batra, Devi Parikh, Stefan Lee, Peter Anderson. 2018.
 \newblock {nocaps}: {n}ovel {o}bject {c}aptioning {a}t {s}cale.
 \newblock {\em arXiv preprint arXiv:1812.08658\/} .

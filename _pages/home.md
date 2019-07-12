@@ -38,19 +38,20 @@ permalink: "/"
     Harsh Agrawal<sup>*</sup>, Karan Desai<sup>*</sup>, Yufei Wang, Xinlei Chen, Rishabh Jain, Mark Johnson, Dhruv Batra, Devi Parikh, Stefan Lee, Peter Anderson
   </div>
   <!-- arxiv and website link -->
-  <!-- <div class="paper-links col-md-12 col-sm-12 col-xs-12">
-    
-      <a class="paper-link button-div" href="//arxiv.org/abs/1812.08658" target="_blank">
-        arxiv/1812.08658
-      </a>
-    
+  <div class="paper-links col-md-12 col-sm-12 col-xs-12">
+    <a class="paper-link button-div" href="//arxiv.org/abs/1812.08658" target="_blank">
+      arxiv/1812.08658
+    </a>
     <a class="paper-link button-div" href="/static/bibliography/nocaps_bibtex.txt" target="_blank">
       bibtex
     </a>
     <a class="paper-link button-div" href="/static/bibliography/nocaps_natbib.txt" target="_blank">
       natbib
     </a>
-  </div> -->
+    <a class="paper-link button-div" href="//github.com/nocaps-org/updown-baseline" target="_blank">
+      code: updown-baseline
+    </a>
+  </div>
   <div class="paper-banner col-md-12 col-sm-12 col-xs-12">
     <a href="//nocaps.org/paper.pdf" target="_blank"> <img src="/static/img/paper/nocaps_banner.jpg" alt="nocaps paper" title="nocaps paper"/> </a>
   </div>
