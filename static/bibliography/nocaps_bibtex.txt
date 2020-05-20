@@ -1,7 +1,7 @@
-@inproceedings{nocaps2019,
-  author    = {Harsh Agrawal* and Karan Desai* and Yufei Wang and Xinlei Chen and Rishabh Jain and
-             Mark Johnson and Dhruv Batra and Devi Parikh and Stefan Lee and Peter Anderson},
-  title     = {{nocaps}: {n}ovel {o}bject {c}aptioning {a}t {s}cale},
-  booktitle = {International Conference on Computer Vision (ICCV)},
-  year      = {2019}
+@inproceedings{agrawal2019nocaps,
+  title={nocaps: novel object captioning at scale},
+  author={Agrawal, Harsh and Desai, Karan and Wang, Yufei and Chen, Xinlei and Jain, Rishabh and Johnson, Mark and Batra, Dhruv and Parikh, Devi and Lee, Stefan and Anderson, Peter},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={8948--8957},
+  year={2019}
 }
