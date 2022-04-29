@@ -25,8 +25,8 @@ permalink: /download
       </ul>
     </ul>
     <br>
-    <a class="button-div" href="https://s3.amazonaws.com/nocaps/nocaps_val_image_info.json" onClick="ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'nocaps.v0.1.val', eventValue: 0});">
-    Download Validation Set Image Info
+    <a class="button-div" href="https://nocaps.s3.amazonaws.com/nocaps_val_4500_captions.json" onClick="ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'nocaps.v0.1.val', eventValue: 0});">
+    Download Validation Set Captions
     </a>
   </div>
 
@@ -56,10 +56,6 @@ permalink: /download
 <div class="format-container row">
   <div class="col-md-12 col-sm-12 col-xs-12 col-12">
     <h2>Annotations Format</h2>
-  </div>
-  <div class="col-md-12 col-sm-12 col-xs-12 col-12">
-    To discourage training on the validation set, both validation and test reference captions will be kept private. However, there is no limit to the number of validation set evaluations that can be performed through the evaluation server. Further, to better understand the data, a random selection of validation set examples can be found on the <a href="/explore">Explore</a> page. The image info files follow the COCO annotations format, and are compatible to read with <a href="//github.com/cocodataset/cocoapi" target="_blank">COCO API</a>. Their format (explained by an example) is as follows:
-  </div>
 
   <div class="col-md-12 col-sm-12 col-xs-12 col-12">
     <pre><code>{
@@ -78,12 +74,18 @@ permalink: /download
             "open_images_id": "0013ea2087020901",
             "height": 1024,
             "width": 732,
-            "coco_url": "https://requestor-proxy.figure-eight.com/figure_eight_datasets/open-images/validation/0013ea2087020901.jpg",
+            "coco_url": "https://s3.amazonaws.com/nocaps/val/0013ea2087020901.jpg",
             "file_name": "0013ea2087020901.jpg",
             "license": 0,
             "date_captured": "2018-11-06 11:04:33"
         },
-    ...
+    ]
+    "annotations": [  // This field is absent in test set.
+        {
+            "image_id": 0,
+            "id": 0,
+            "caption": "A baby is standing in front of a house."
+        }
     ]
 }</code></pre>
   </div>
@@ -94,7 +96,7 @@ permalink: /download
 <h2 class="anchor" id="dataset">Evaluation Server</h2>
 <div class="dataset-container row">
   <div class="col-md-12 col-sm-12 col-xs-12">
-    <p> To facilitate evaluation and avoid exposing the novel object captions, we have also setup an evaluation server on EvalAI. Submission instructions and leaderboard are available here:</p>
+    <p>We have setup an evaluation server for nocaps on EvalAI. Submission instructions and leaderboard are available here:</p>
     <button class="button-div"><a href="https://evalai.cloudcv.org/web/challenges/challenge-page/355/overview">Evaluation Server</a></button>
   </div>
 </div>
