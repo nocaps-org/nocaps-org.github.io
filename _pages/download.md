@@ -25,7 +25,7 @@ permalink: /download
       </ul>
     </ul>
     <br>
-    <a class="button-div" href="https://nocaps.s3.amazonaws.com/nocaps_val_4500_captions.json" onClick="ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'nocaps.v0.1.val', eventValue: 0});">
+    <a class="button-div" href="https://drive.google.com/file/d/1zrsLhT94nazJ5h-LleHsU4AojHBqpcA0/view?usp=share_link">
     Download Validation Set Captions
     </a>
   </div>
@@ -43,7 +43,7 @@ permalink: /download
       </ul>
     </ul>
     <br>
-    <a class="button-div" href="https://s3.amazonaws.com/nocaps/nocaps_test_image_info.json" onClick="ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'nocaps.v0.1.test', eventValue: 0});">
+    <a class="button-div" href="https://drive.google.com/file/d/1y8rBQZp5jsKS-eO2xmFPeJr8Rz-ShQst/view?usp=share_link">
     Download Test Set Image Info
     </a>
   </div>
